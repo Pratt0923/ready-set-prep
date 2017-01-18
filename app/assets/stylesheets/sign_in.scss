@@ -4,9 +4,9 @@
   border-radius: 5px;
   text-align: center;
   display: block;
-  width: 15em;
+  width: 30em;
   padding: 2em 1em 2em 1em;
-  background-color: yellow;
+  background-color: #244363;
 }
 
 .login {
@@ -14,18 +14,41 @@
   padding: 10px 15px 10px 15px;
 }
 
-.sign_in_email {
-  width: 100%;
-  height: 2em;
-  background-color: inherit;
-  border: 0;
-  border-bottom: 2px solid white;
+
+.sign_in_field::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ecf2f8;
+  opacity: 0.5;
+}
+.sign_in_field::-moz-placeholder { /* Firefox 19+ */
+  color: #ecf2f8;
+  opacity: 0.5;
+}
+.sign_in_field:-ms-input-placeholder { /* IE 10+ */
+  color: #ecf2f8;
+  opacity: 0.5;
+}
+.sign_in_field:-moz-placeholder { /* Firefox 18- */
+  color: #ecf2f8;
+  opacity: 0.4;
 }
 
-.sign_in_password {
+.sign_in_field:focus {
+  outline: none;
   width: 100%;
+}
+.sign_in_field:hover {
+  width: 100%;
+}
+
+.sign_in_field {
+  width: 95%;
+  color: white;
+  font-size: 18px;
   height: 2em;
   background-color: inherit;
   border: 0;
+  opacity: 0.9;
+  transition: width .5s ease;
   border-bottom: 2px solid white;
+  margin-bottom: 1em;
 }
