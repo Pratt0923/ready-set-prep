@@ -1,7 +1,25 @@
+
+.remember_me_text {
+  color: #ecf2f8;
+  opacity: 0.8;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 2em;
+  transition: font-size .5s ease, opacity .5s ease, color .5s ease;
+}
+
+.remember_me_text:hover {
+  font-size: 18.5px;
+  color: white;
+  opacity: 1;
+  cursor: pointer;
+}
+
 .sign_in_form {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
+  height: auto;
   text-align: center;
   display: block;
   width: 30em;
@@ -10,24 +28,29 @@
 }
 
 .login {
-  background-color: blue;
+  margin-top: 2em;
+  background-color: #ecf2f8;
+  border: none;
   padding: 10px 15px 10px 15px;
 }
 
+.login:hover {
+  cursor: pointer;
+}
 
-.sign_in_field::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.sign_in_field::-webkit-input-placeholder {
   color: #ecf2f8;
   opacity: 0.5;
 }
-.sign_in_field::-moz-placeholder { /* Firefox 19+ */
+.sign_in_field::-moz-placeholder {
   color: #ecf2f8;
   opacity: 0.5;
 }
-.sign_in_field:-ms-input-placeholder { /* IE 10+ */
+.sign_in_field:-ms-input-placeholder {
   color: #ecf2f8;
   opacity: 0.5;
 }
-.sign_in_field:-moz-placeholder { /* Firefox 18- */
+.sign_in_field:-moz-placeholder {
   color: #ecf2f8;
   opacity: 0.4;
 }
