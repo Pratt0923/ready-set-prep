@@ -1,77 +1,13 @@
-
-.remember_me_text {
-  color: #ecf2f8;
-  opacity: 0.8;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 2em;
-  transition: font-size .5s ease, opacity .5s ease, color .5s ease;
-}
-
-.remember_me_text:hover {
-  font-size: 18.5px;
-  color: white;
-  opacity: 1;
-  cursor: pointer;
+.background_image {
+  background: url("https://static.pexels.com/photos/65117/pexels-photo-65117.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .sign_in_form {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  height: auto;
-  text-align: center;
-  display: block;
-  width: 30em;
-  padding: 2em 1em 2em 1em;
-  background-color: #244363;
-}
-
-.login {
-  margin-top: 2em;
-  background-color: #ecf2f8;
-  border: none;
-  padding: 10px 15px 10px 15px;
-}
-
-.login:hover {
-  cursor: pointer;
-}
-
-.sign_in_field::-webkit-input-placeholder {
-  color: #ecf2f8;
-  opacity: 0.5;
-}
-.sign_in_field::-moz-placeholder {
-  color: #ecf2f8;
-  opacity: 0.5;
-}
-.sign_in_field:-ms-input-placeholder {
-  color: #ecf2f8;
-  opacity: 0.5;
-}
-.sign_in_field:-moz-placeholder {
-  color: #ecf2f8;
-  opacity: 0.4;
-}
-
-.sign_in_field:focus {
-  outline: none;
-  width: 100%;
-}
-.sign_in_field:hover {
-  width: 100%;
-}
-
-.sign_in_field {
-  width: 95%;
-  color: white;
-  font-size: 18px;
-  height: 2em;
-  background-color: inherit;
-  border: 0;
-  opacity: 0.9;
-  transition: width .5s ease;
-  border-bottom: 2px solid white;
-  margin-bottom: 1em;
+  background-color: white;
 }
